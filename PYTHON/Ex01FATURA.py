@@ -1,0 +1,6 @@
+print("Olá tudo bom!!")
+nome = input("\nPoderia me falar seu nome: ")
+vencimento = input("\nQual o dia do vencimento da sua fatura: ")
+mes = input("\nQual o mês do vencimento: ")
+valor = input("\nQual o valor da sua fatura: ")
+print(f"Olá senhor(a) {nome} \n A sua fatura com vencimento em {vencimento} de {mes} no valor de R${valor} está fechada.")
